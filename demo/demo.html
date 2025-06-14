@@ -1,43 +1,156 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar with Banner</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="css/demo1.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#">Demo</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Sale</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-        <div class="logo">kalles</div>
-        <div class="icons">
-            <a href="#"><i class="fas fa-search" data-count=""></i></a>
-            <a href="#"><i class="fas fa-user" data-count=""></i></a>
-            <a href="#"><i class="fas fa-heart" data-count="3"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart" data-count="3"></i></a>
-        </div>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigation Bar with Banner</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="css/demo1.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#">Demo</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="logo">kalles</div>
+                <div class="icons">
+                    <a href="#"><i class="fas fa-search" data-count></i></a>
+                    <a href="#"><i class="fas fa-user" data-count></i></a>
+                    <a href="#"><i class="fas fa-heart" data-count="3"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"
+                            data-count="3"></i></a>
+                </div>
+            </nav>
 
-    <!-- Banner -->
-    <section class="banner">
-        <div class="banner-content">
-            <p>Spring - Summer 2025</p>
-            <h1 class="tieude">Lookbook Collection</h1>
-            <a href="#" class="shop-now">Shopping Now →</a>
+            <!-- Banner -->
+            <section class="banner">
+                <div class="banner-content">
+                    <p>Spring - Summer 2025</p>
+                    <h1 class="tieude">Lookbook Collection</h1>
+                    <a href="#" class="shop-now">Shopping Now →</a>
+                </div>
+                <div class="banner-image">
+                    <img src="anh/banner.png" alt="Lookbook Bag">
+                </div>
+            </section>
+
+            <!-- Shop By Categories -->
+            <section class="shop-categories">
+                <h2>Shop By Categories</h2>
+                <div class="category-grid">
+                    <div class="category-item">
+                        <img src="anh/Image 234.png" alt="Shoulder Bags">
+                        <p>Shoulder Bags</p>
+                        <span>15 Items</span>
+                    </div>
+                    <div class="category-item">
+                        <img src="anh/Image 345.png" alt="Tote Bags">
+                        <p>Tote Bags</p>
+                        <span>22 Items</span>
+                    </div>
+                    <div class="category-item">
+                        <img src="anh/Image 456.png" alt="Hand Bags">
+                        <p>Hand Bags</p>
+                        <span>22 Items</span>
+                    </div>
+                    <div class="category-item">
+                        <img src="anh/Image123.png" alt="Crossbody Bags">
+                        <p>Crossbody Bags</p>
+                        <span>12 Items</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Arrivals -->
+            <section class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <p>Here's some of our most popular products people are in love
+                    with.</p>
+                <div class="arrivals-grid">
+                    <div class="arrival-item">
+                        <img src="anh/sanpham1.png" alt="Herman Shoulder Bag">
+                        <h3>Herman Shoulder Bag</h3>
+                        <p class="price">$65.00</p>
+                    </div>
+                    <div class="arrival-item">
+                        <img src="anh/sanpham2.png"
+                            alt="Jenna Hollow Shoulder Bag">
+                        <h3>Jenna Hollow Shoulder Bag</h3>
+                        <p class="price"><del>$90.00</del> $45.00</p>
+                    </div>
+                    <div class="arrival-item">
+                        <img src="anh/sanpham3.png" alt="Elise Top Handle Bag">
+                        <h3>Elise Top Handle Bag</h3>
+                        <p class="price"><del>$105.00</del> $95.07</p>
+                    </div>
+                    <div class="arrival-item">
+                        <img src="anh/sanpham4.png" alt="Milla Shoulder Bag">
+                        <h3>Milla Shoulder Bag</h3>
+                        <p class="price">$75.00</p>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="banner-image">
-            <img src="anh/banner.png" alt="Lookbook Bag">
-        </div>
-    </section>
-</body>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h4>Category</h4>
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Modern</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">My Cart</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Product Compare</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Store Location</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping & Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column newsletter">
+                    <h4>Sign Up Newsletter</h4>
+                    <p>Subscribe to our newsletter and get 10% off your first
+                        purchase</p>
+                    <input type="email" placeholder="Enter your email..">
+                    <button type="submit">→</button>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
